@@ -6,43 +6,84 @@
     </metadata>
     <report>
         <tasks>
-            <task taskid="1000" subscribed="0" trackable="1" parentid="0">Documentation</task>
-            <task taskid="1100" subscribed="0" trackable="1" parentid="1000">Cloud</task>
-            <task taskid="1110" subscribed="0" trackable="1" parentid="1100">Cloud 4</task>
-            <task taskid="1120" subscribed="0" trackable="1" parentid="1100">Cloud 5</task>
-            <task taskid="1130" subscribed="0" trackable="1" parentid="1100">Cloud 6</task>
-            <task taskid="1200" subscribed="0" trackable="1" parentid="1000">SES</task>
-            <task taskid="1210" subscribed="0" trackable="1" parentid="1200">SES 1</task>
-            <task taskid="1220" subscribed="0" trackable="1" parentid="1200">SES 2</task>
-            <task taskid="1300" subscribed="0" trackable="1" parentid="1000">SLES</task>
-            <task taskid="1310" subscribed="0" trackable="1" parentid="1300">SLES 10</task>
-            <task taskid="1320" subscribed="0" trackable="1" parentid="1300">SLES 11</task>
-            <task taskid="1330" subscribed="0" trackable="1" parentid="1300">SLES 12</task>
-            <task taskid="1331" subscribed="0" trackable="1" parentid="1330">SLES 12 SP1</task>
-            <task taskid="1400" subscribed="0" trackable="1" parentid="1000">SLED</task>
-            <task taskid="1410" subscribed="0" trackable="1" parentid="1400">SLED 10</task>
-            <task taskid="1420" subscribed="0" trackable="1" parentid="1400">SLED 11</task>
-            <task taskid="1430" subscribed="0" trackable="1" parentid="1400">SLED 12</task>
-            <task taskid="1431" subscribed="0" trackable="1" parentid="1430">SLED 12 SP1</task>
-            <task taskid="1500" subscribed="0" trackable="1" parentid="1000">SLE PoS</task>
-            <task taskid="1510" subscribed="0" trackable="1" parentid="1500">SLE PoS 10</task>
-            <task taskid="1520" subscribed="0" trackable="1" parentid="1500">SLE PoS 11</task>
-            <task taskid="1600" subscribed="0" trackable="1" parentid="1000">SLE4SAP</task>
-            <task taskid="1620" subscribed="0" trackable="1" parentid="1600">SLE4SAP 11</task>
-            <task taskid="1630" subscribed="0" trackable="1" parentid="1600">SLE4SAP 12</task>
-            <task taskid="1631" subscribed="0" trackable="1" parentid="1630">SLE4SAP 12 SP1</task>
-            <task taskid="1700" subscribed="0" trackable="1" parentid="1000">SLE RT</task>
-            <task taskid="1710" subscribed="0" trackable="1" parentid="1700">SLE RT 10</task>
-            <task taskid="1720" subscribed="0" trackable="1" parentid="1700">SLE RT 11</task>
-            <task taskid="1730" subscribed="0" trackable="1" parentid="1700">SLE RT 12</task>
-            <task taskid="1731" subscribed="0" trackable="1" parentid="1730">SLE RT 12 SP1</task>
-            <task taskid="1800" subscribed="0" trackable="1" parentid="1000">SLE HA</task>
-            <task taskid="1820" subscribed="0" trackable="1" parentid="1800">SLE HA 11</task>
-            <task taskid="1830" subscribed="0" trackable="1" parentid="1800">SLE HA 12</task>
-            <task taskid="1831" subscribed="0" trackable="1" parentid="1830">SLE HA 12 SP1</task>
-            <task taskid="1900" subscribed="0" trackable="1" parentid="1000">SLE HA Geo</task>
-            <task taskid="1920" subscribed="0" trackable="1" parentid="1900">SLE HA Geo 11</task>
-            <task taskid="1930" subscribed="0" trackable="1" parentid="1900">SLE HA Geo 12</task>
+            <task taskid="10000" subscribed="0" trackable="1" parentid="0">Documentation</task>
+            <task taskid="10100" subscribed="0" trackable="1" parentid="10000">Cloud</task>
+            <task taskid="10110" subscribed="0" trackable="1" parentid="10100">Cloud 4</task>
+            <task taskid="10111" subscribed="0" trackable="1" parentid="10110">Cloud 4 Release Notes</task>
+            <task taskid="10112" subscribed="0" trackable="1" parentid="10110">Cloud 4 Deployment Guide</task>
+            <task taskid="10113" subscribed="0" trackable="1" parentid="10110">Cloud 4 Admin User Guide</task>
+            <task taskid="10114" subscribed="0" trackable="1" parentid="10110">Cloud 4 End User Guide</task>
+            <task taskid="10120" subscribed="0" trackable="1" parentid="10100">Cloud 5</task>
+            <task taskid="10121" subscribed="0" trackable="1" parentid="10120">Cloud 5 Release Notes</task>
+            <task taskid="10122" subscribed="0" trackable="1" parentid="10120">Cloud 5 Deployment Guide</task>
+            <task taskid="10123" subscribed="0" trackable="1" parentid="10120">Cloud 5 Admin User Guide</task>
+            <task taskid="10124" subscribed="0" trackable="1" parentid="10120">Cloud 5 End User Guide</task>
+            <task taskid="10125" subscribed="0" trackable="1" parentid="10120">Cloud 5 Supplement</task>
+            <task taskid="10130" subscribed="0" trackable="1" parentid="10100">Cloud 6</task>
+            <task taskid="10131" subscribed="0" trackable="1" parentid="10130">Cloud 6 Release Notes</task>
+            <task taskid="10132" subscribed="0" trackable="1" parentid="10130">Cloud 6 Deployment Guide</task>
+            <task taskid="10133" subscribed="0" trackable="1" parentid="10130">Cloud 6 Admin User Guide</task>
+            <task taskid="10134" subscribed="0" trackable="1" parentid="10130">Cloud 6 End User Guide</task>
+            <task taskid="10135" subscribed="0" trackable="1" parentid="10130">Cloud 6 Supplement</task>
+            <task taskid="10200" subscribed="0" trackable="1" parentid="10000">SES</task>
+            <task taskid="10210" subscribed="0" trackable="1" parentid="10200">SES 1</task>
+            <task taskid="10211" subscribed="0" trackable="1" parentid="10210">SES 1 Deployment and Administration Guide</task>
+            <task taskid="10220" subscribed="0" trackable="1" parentid="10200">SES 2</task>
+            <task taskid="10222" subscribed="0" trackable="1" parentid="10220">SES 2 Deployment and Administration Guide</task>
+            <task taskid="10300" subscribed="0" trackable="1" parentid="10000">SLES</task>
+            <task taskid="10310" subscribed="0" trackable="1" parentid="10300">SLES 10</task>
+            <task taskid="10320" subscribed="0" trackable="1" parentid="10300">SLES 11</task>
+            <task taskid="10330" subscribed="0" trackable="1" parentid="10300">SLES 12</task>
+            <task taskid="10331" subscribed="0" trackable="1" parentid="10330">SLES 12 SP1</task>
+            <task taskid="10400" subscribed="0" trackable="1" parentid="10000">SLED</task>
+            <task taskid="10410" subscribed="0" trackable="1" parentid="10400">SLED 10</task>
+            <task taskid="10420" subscribed="0" trackable="1" parentid="10400">SLED 11</task>
+            <task taskid="10430" subscribed="0" trackable="1" parentid="10400">SLED 12</task>
+            <task taskid="10431" subscribed="0" trackable="1" parentid="10430">SLED 12 SP1</task>
+            <task taskid="10500" subscribed="0" trackable="1" parentid="10000">SLE PoS</task>
+            <task taskid="10510" subscribed="0" trackable="1" parentid="10500">SLE PoS 10</task>
+            <task taskid="10520" subscribed="0" trackable="1" parentid="10500">SLE PoS 11</task>
+            <task taskid="10600" subscribed="0" trackable="1" parentid="10000">SLE4SAP</task>
+            <task taskid="10620" subscribed="0" trackable="1" parentid="10600">SLE4SAP 11</task>
+            <task taskid="10630" subscribed="0" trackable="1" parentid="10600">SLE4SAP 12</task>
+            <task taskid="10631" subscribed="0" trackable="1" parentid="10630">SLE4SAP 12 SP1</task>
+            <task taskid="10700" subscribed="0" trackable="1" parentid="10000">SLE RT</task>
+            <task taskid="10710" subscribed="0" trackable="1" parentid="10700">SLE RT 10</task>
+            <task taskid="10720" subscribed="0" trackable="1" parentid="10700">SLE RT 11</task>
+            <task taskid="10730" subscribed="0" trackable="1" parentid="10700">SLE RT 12</task>
+            <task taskid="10731" subscribed="0" trackable="1" parentid="10730">SLE RT 12 SP1</task>
+            <task taskid="10800" subscribed="0" trackable="1" parentid="10000">SLE HA</task>
+            <task taskid="10820" subscribed="0" trackable="1" parentid="10800">SLE HA 11</task>
+            <task taskid="10830" subscribed="0" trackable="1" parentid="10800">SLE HA 12</task>
+            <task taskid="10831" subscribed="0" trackable="1" parentid="10830">SLE HA 12 SP1</task>
+            <task taskid="10900" subscribed="0" trackable="1" parentid="10000">SLE HA Geo</task>
+            <task taskid="10920" subscribed="0" trackable="1" parentid="10900">SLE HA Geo 11</task>
+            <task taskid="10930" subscribed="0" trackable="1" parentid="10900">SLE HA Geo 12</task>
+            <task taskid="80000" subscribed="0" trackable="1" parentid="0">Internal</task>
+            <task taskid="80010" subscribed="0" trackable="1" parentid="80000">Communication &amp; Coordination</task>
+            <task taskid="80020" subscribed="0" trackable="1" parentid="80000">Infrastructure &amp; Tooling</task>
+            <task taskid="80030" subscribed="0" trackable="1" parentid="80000">Training</task>
+            <task taskid="80040" subscribed="0" trackable="1" parentid="80000">Workshop</task>
+            <task taskid="80050" subscribed="0" trackable="1" parentid="80000">Hackweek</task>
+            <task taskid="89999" subscribed="0" trackable="1" parentid="80000">Misc ('The Bucket')</task>
+            <task taskid="90000" subscribed="0" trackable="1" parentid="0">Non-working time</task>
+            <task taskid="90001" subscribed="0" trackable="1" parentid="90000">Paid Vacation</task>
+            <task taskid="90002" subscribed="0" trackable="1" parentid="90000">Sickness</task>
+            <task taskid="90003" subscribed="0" trackable="1" parentid="90000">Compensation Time off</task>
+            <task taskid="90004" subscribed="0" trackable="1" parentid="90000">Unpaid leave</task>
+            <task taskid="90010" subscribed="0" trackable="1" parentid="90000">Family</task>
+            <task taskid="90011" subscribed="0" trackable="1" parentid="90010">Birth of Child</task>
+            <task taskid="90012" subscribed="0" trackable="1" parentid="90010">Paternity Leave</task>
+            <task taskid="90013" subscribed="0" trackable="1" parentid="90010">Death of Family Member</task>
+            <task taskid="90014" subscribed="0" trackable="1" parentid="90010">Death of Relative</task>
+            <task taskid="90015" subscribed="0" trackable="1" parentid="90010">Family and Medical Leave Act</task>
+            <task taskid="90016" subscribed="0" trackable="1" parentid="90010">Special Needs</task>
+            <task taskid="90017" subscribed="0" trackable="1" parentid="90010">Silver Wedding</task>
+            <task taskid="90018" subscribed="0" trackable="1" parentid="90010">Wedding of Family Member</task>
+            <task taskid="90020" subscribed="0" trackable="1" parentid="90000">Various</task>
+            <task taskid="90021" subscribed="0" trackable="1" parentid="90020">Moving Day</task>
+            <task taskid="90022" subscribed="0" trackable="1" parentid="90020">Professional Education</task>
+            <task taskid="90023" subscribed="0" trackable="1" parentid="90020">Wedding of Employee</task>
         </tasks>
     </report>
 </charmreport>
